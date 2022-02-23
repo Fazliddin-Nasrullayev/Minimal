@@ -54,6 +54,10 @@
          url('../fonts/oswald-v41-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
   }
 
+  html {
+     scroll-behavior: smooth;
+  }
+
   * {
        box-sizing: border-box;
        margin: 0;
@@ -484,4 +488,115 @@
      text-align: center;
      text-transform: uppercase;
      color: #ABABAB;
+}
+
+/* buttom section */
+
+.bottom {
+     padding-top: 69px;
+     padding-bottom: 69px;
+     background-image: url('./../images/bottom.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: auto;
+}
+
+.bottom__container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-items: center;
+}
+
+.bottom__list {
+     margin-top: 42px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.bottom__list__item {
+     width: 319px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.bottom__header {
+     padding-bottom: 20px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #333333;
+}
+
+.bottom__text {
+     font-family: Vollkorn;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 17px;
+     line-height: 22px;
+     text-align: center;
+     color: #212121;
+}
+
+.bottom__link {
+     font-family: Vollkorn;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 17px;
+     line-height: 22px;
+     text-align: center;
+     color: #1C1C1C;
+}
+
+.bottom__list__item1 {
+     padding-top: 13px;
+}
+
+.bottom__list__item2 {
+     padding-top: 20px;
+}
+
+.bottom__list__item3 {
+     /* padding-top: 5px; */
+}
+
+.bottom__img {
+     margin-bottom: 26px;
+}
+
+.bottom__img1 {
+     margin-bottom: 34px;
+}
+
+.bottom__img2 {
+     margin-bottom: 28px;
+}
+
+.bottom__link {
+     margin-bottom: 22px;
+}
+
+.bottom__mesenger__link {
+     display: flex;
+     align-items: center;
+     /* justify-content: left; */
+     width: 201px;
+     margin-left: 108px;
+     font-family: Vollkorn;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 17px;
+     line-height: 20px;
+     color: #212121;
+}
+
+.bottom__link__img {
+     margin-right: 9px;
 }
